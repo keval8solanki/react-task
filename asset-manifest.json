@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-task/static/css/main.1359096b.chunk.css",
-    "main.js": "/react-task/static/js/main.ed88d155.chunk.js",
+    "main.js": "/react-task/static/js/main.0a2ac174.chunk.js",
     "runtime-main.js": "/react-task/static/js/runtime-main.5f3dd1ff.js",
-    "static/js/2.2de70fa4.chunk.js": "/react-task/static/js/2.2de70fa4.chunk.js",
+    "static/js/2.e843f323.chunk.js": "/react-task/static/js/2.e843f323.chunk.js",
     "index.html": "/react-task/index.html",
-    "precache-manifest.82fa93313f14f79b71ac9bd45cc3b8fd.js": "/react-task/precache-manifest.82fa93313f14f79b71ac9bd45cc3b8fd.js",
+    "precache-manifest.f8cd21cfe1ec6e32080f794b36818edb.js": "/react-task/precache-manifest.f8cd21cfe1ec6e32080f794b36818edb.js",
     "service-worker.js": "/react-task/service-worker.js",
-    "static/js/2.2de70fa4.chunk.js.LICENSE.txt": "/react-task/static/js/2.2de70fa4.chunk.js.LICENSE.txt",
+    "static/js/2.e843f323.chunk.js.LICENSE.txt": "/react-task/static/js/2.e843f323.chunk.js.LICENSE.txt",
     "static/media/sort.svg": "/react-task/static/media/sort.fbe4a16e.svg",
     "static/media/spinner.svg": "/react-task/static/media/spinner.63132f79.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5f3dd1ff.js",
-    "static/js/2.2de70fa4.chunk.js",
+    "static/js/2.e843f323.chunk.js",
     "static/css/main.1359096b.chunk.css",
-    "static/js/main.ed88d155.chunk.js"
+    "static/js/main.0a2ac174.chunk.js"
   ]
 }
