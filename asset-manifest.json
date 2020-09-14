@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/react-task/static/css/main.1359096b.chunk.css",
-    "main.js": "/react-task/static/js/main.0a2ac174.chunk.js",
+    "main.css": "/react-task/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/react-task/static/js/main.a54f6268.chunk.js",
+    "main.js.map": "/react-task/static/js/main.a54f6268.chunk.js.map",
     "runtime-main.js": "/react-task/static/js/runtime-main.5f3dd1ff.js",
+    "runtime-main.js.map": "/react-task/static/js/runtime-main.5f3dd1ff.js.map",
     "static/js/2.e843f323.chunk.js": "/react-task/static/js/2.e843f323.chunk.js",
+    "static/js/2.e843f323.chunk.js.map": "/react-task/static/js/2.e843f323.chunk.js.map",
     "index.html": "/react-task/index.html",
-    "precache-manifest.f8cd21cfe1ec6e32080f794b36818edb.js": "/react-task/precache-manifest.f8cd21cfe1ec6e32080f794b36818edb.js",
+    "precache-manifest.4a670da40040e4868b8d308e2b8047f6.js": "/react-task/precache-manifest.4a670da40040e4868b8d308e2b8047f6.js",
     "service-worker.js": "/react-task/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/react-task/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.e843f323.chunk.js.LICENSE.txt": "/react-task/static/js/2.e843f323.chunk.js.LICENSE.txt",
     "static/media/sort.svg": "/react-task/static/media/sort.fbe4a16e.svg",
     "static/media/spinner.svg": "/react-task/static/media/spinner.63132f79.svg"
@@ -14,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5f3dd1ff.js",
     "static/js/2.e843f323.chunk.js",
-    "static/css/main.1359096b.chunk.css",
-    "static/js/main.0a2ac174.chunk.js"
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.a54f6268.chunk.js"
   ]
 }
