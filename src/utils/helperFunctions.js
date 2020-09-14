@@ -5,3 +5,11 @@ export const fetchData = async (uri, setData) => {
 	if (data) setData(data)
 }
 
+export const convertFieldToOriginal = (str) => {
+	const lowerChar = str.toLowerCase()
+	if (lowerChar === 'userid') {
+		return 'userId'
+	} 
+
+	return lowerChar
+}

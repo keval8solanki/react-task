@@ -9,7 +9,7 @@ function Search({ params }) {
 	const { searchCriteria, setSearchCriteria, setSearchValue } = params
 
 	const [value, setValue] = useState('')
-	const [criteria, setCriteria] = useState('')
+	const [criteria, setCriteria] = useState('id')
 
 	const searchHandler = (e) => {
 		e.preventDefault()

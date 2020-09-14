@@ -13,6 +13,7 @@ import {
 	TableHeadTitle,
 	TableRow,
 } from '../styles/globalStyles'
+
 import { useDispatch, useSelector } from 'react-redux'
 import { v4 as uuid } from 'uuid'
 
@@ -30,6 +31,7 @@ import Pagination from '../components/Pagination'
 import Loader from '../components/Loader'
 
 import SortIcon from '../assets/icons/sort.svg'
+import { convertFieldToOriginal } from '../utils/helperFunctions'
 function Home() {
 	const dispatch = useDispatch()
 	const {
@@ -43,8 +45,13 @@ function Home() {
 		headings,
 	} = useSelector((state) => state.tableReducer)
 	//Params
+	console.log(searchCriteria)
 
-	let endpoint = `${API_URI}/shipments?${searchCriteria.toLowerCase()}_like=${searchValue}&_page=${page}&_limit=${limit}&_sort=${sortCriteria.toLowerCase()}&_order=${sortOrder}`
+	let endpoint = `${API_URI}/shipments?${convertFieldToOriginal(
+		searchCriteria
+	)}_like=${searchValue}&_page=${page}&_limit=${limit}&_sort=${convertFieldToOriginal(
+		sortCriteria
+	)}&_order=${sortOrder}`
 
 	console.log(endpoint)
 	useEffect(() => {
