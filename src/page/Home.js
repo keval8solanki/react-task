@@ -44,8 +44,6 @@ function Home() {
 		sortOrder,
 		headings,
 	} = useSelector((state) => state.tableReducer)
-	//Params
-	console.log(searchCriteria)
 
 	let endpoint = `${API_URI}/shipments?${convertFieldToOriginal(
 		searchCriteria
@@ -53,7 +51,6 @@ function Home() {
 		sortCriteria
 	)}&_order=${sortOrder}`
 
-	console.log(endpoint)
 	useEffect(() => {
 		Axios.get(endpoint)
 			.then((res) => {
